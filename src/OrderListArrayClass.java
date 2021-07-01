@@ -1,20 +1,24 @@
-package receipthome;
 
-public class OrderListArrayClass {
+	package receipthome;
 
-	int no;
-	String name;
-	int price;
-	int count;
-	int total;
+	public class OrderListArrayClass {
 
-	public OrderListArrayClass(int no, String name, int price, int count, int total) {
-		this.no = no;
-		this.name = name;
-		this.price = price;
-		this.price = price; 
-		this.count = count;
-		this.total = total;
-	}	
+		int no;
+		String name;
+		int price;
+		int count;
+		int total;
+
+		public OrderListArrayClass(int no, String name, int price, int count, int total) {
+			this.no = no;
+			this.name = name;
+			this.price = price;
+			this.price = price; 
+			this.count = count;
+			this.total = total;
+		}	
+
+	}
 	
-}
+	
+
